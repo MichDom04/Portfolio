@@ -1,0 +1,192 @@
+body{
+    font-family: Arial;
+    background-color: yellowgreen;
+    color: beige;
+    margin: 0;
+    flex-wrap: wrap;
+}
+header{
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+}
+header p{
+    font-size: 14pt;
+    text-align: center;
+}
+nav{
+    background-color: darkolivegreen;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    font-size: 16pt;
+}
+nav a:hover{
+    background-color: green;
+    padding: 1%;
+    text-decoration: underline;
+}
+section{
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(142, 236, 105);
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cover{
+    display: flex;
+    margin: 20px;
+}
+.home-text{
+    color: black;
+    margin: 30px;
+}
+section h2{
+    color: green;
+    border-bottom: 2px solid green;
+}
+section p{
+    color: black;
+}
+section img{
+    width: 200px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.about_content{
+    display: flex;
+    margin: 20px;
+}
+.about_content img{
+    object-fit: cover;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.about-text{
+    width: 50%;
+    /* display: inline; */
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1.6;
+}
+.motto{
+    background-color: rgb(236, 236, 151);
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+h4{
+    color: black;
+    text-align: center;
+}
+#skills{
+    color: black;
+}
+.skill{
+    display: flex;
+    margin: 30px;
+}
+.skill-text{
+    color: black;
+    margin: 30px;
+}
+#contact{
+    color: black;
+}
+li{
+    margin: 8px;
+}
+form{
+    width: 80%;
+}
+input[type="text"],
+input[text="email"],
+textarea {
+    width: 100%;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 8px;
+}
+input[type="submit"] {
+    background-color: green;
+    color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+footer{
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 10pt;
+}
+/* MY PROJECT */
+#project{
+    width: 90%;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid wheat;
+    border-radius: 10px;
+  
+}
+#project .title h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#project .cards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#project div{
+    height: 320px;
+    width: 280px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius:20px;
+    text-align: center;
+    box-shadow: 5px 5px gray ;
+    margin-bottom: 30px;
+}
+#project div img{
+    height: 120px;
+    width: 120px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#project div h2{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#project div:hover{
+    height: 325px;
+    width: 285px;
+    border: 2px solid lightgreen;
+    border-radius:20px;
+    box-shadow: 3px 3px gray ;
+    transition: 0.5s;
+}
+#project p{
+    text-align: center;
+}
